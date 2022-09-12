@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "from": "Paris",
+            "to": "London"
+        },
+        {
+            "from": "Praga",
+            "to": "Budapest"
+        },
+        {
+            "from": "#$%#$%^",
+            "to": "^$%^$"
+        },
+        {
+            "from": "   ",
+            "to": "   "
+        },
+        {
+            "from": " retert",
+            "to": "  erter "
+        }
+    ]
+}
