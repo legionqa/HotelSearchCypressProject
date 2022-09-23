@@ -8,6 +8,13 @@ describe('Job Cafe sanity spec', {defaultCommandTimeout: 10000}, () => {
 
     })
 
+    it('example - how to navigate to the new page', {defaultCommandTimeout: 20000}, () => {
+     
+        cy.visit('/')
+
+    })
+
+
     it('test jobs page search for QA position', {defaultCommandTimeout: 20000}, () => {
      
         cy.visit('job-page')
@@ -38,8 +45,6 @@ describe('Job Cafe sanity spec', {defaultCommandTimeout: 10000}, () => {
         cy.get('[class="post-item clearfix"]').contains('QA').should('be.visible')
         cy.get('p').contains('Apple').should('be.visible')
         cy.get('span').contains('USA').should('be.visible')
-
-
 
     })
 
